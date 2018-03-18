@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5bca48e56bbf3a25645858fcab9c285",
+    "content-hash": "a529934503639f8c6783b21b7efe77f1",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -455,16 +455,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.6.12",
+            "version": "v5.6.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "82d8165d1ea86bdd81ddfa1db9343fa19e7d1450"
+                "reference": "195ba6a67bdad2a23105c7ab410cd43e0f20bb73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/82d8165d1ea86bdd81ddfa1db9343fa19e7d1450",
-                "reference": "82d8165d1ea86bdd81ddfa1db9343fa19e7d1450",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/195ba6a67bdad2a23105c7ab410cd43e0f20bb73",
+                "reference": "195ba6a67bdad2a23105c7ab410cd43e0f20bb73",
                 "shasum": ""
             },
             "require": {
@@ -473,7 +473,7 @@
                 "erusev/parsedown": "~1.7",
                 "ext-mbstring": "*",
                 "ext-openssl": "*",
-                "league/flysystem": "^1.0.8",
+                "league/flysystem": "~1.0",
                 "monolog/monolog": "~1.12",
                 "nesbot/carbon": "^1.24.1",
                 "php": "^7.1.3",
@@ -589,7 +589,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-03-14T17:29:38+00:00"
+            "time": "2018-03-09T16:53:27+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -818,16 +818,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.24.2",
+            "version": "1.24.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "bba6c6e410c6b4317e37a9474aeaa753808c3875"
+                "reference": "ef12cbd8ba5ce624f0a6a95e0850c4cc13e71e41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bba6c6e410c6b4317e37a9474aeaa753808c3875",
-                "reference": "bba6c6e410c6b4317e37a9474aeaa753808c3875",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/ef12cbd8ba5ce624f0a6a95e0850c4cc13e71e41",
+                "reference": "ef12cbd8ba5ce624f0a6a95e0850c4cc13e71e41",
                 "shasum": ""
             },
             "require": {
@@ -867,7 +867,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-03-10T10:10:14+00:00"
+            "time": "2018-03-09T15:49:34+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -3875,6 +3875,49 @@
             "time": "2016-10-03T07:35:21+00:00"
         },
         {
+            "name": "symfony/thanks",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/thanks.git",
+                "reference": "9474ce305253c2f0bc20322ff8e9973cf25c9a94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/thanks/zipball/9474ce305253c2f0bc20322ff8e9973cf25c9a94",
+                "reference": "9474ce305253c2f0bc20322ff8e9973cf25c9a94",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": "^5.5.9|^7.0.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                },
+                "class": "Symfony\\Thanks\\Thanks"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Thanks\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                }
+            ],
+            "description": "Give thanks (in the form of a GitHub ⭐) to your fellow PHP package maintainers (not limited to Symfony components)!",
+            "time": "2018-02-02T13:47:40+00:00"
+        },
+        {
             "name": "theseer/tokenizer",
             "version": "1.1.0",
             "source": {
@@ -3971,7 +4014,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1.3"
+        "php": ">=7.1.3"
     },
     "platform-dev": []
 }
